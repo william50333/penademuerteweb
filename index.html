@@ -1,0 +1,1015 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Evangelium Vitae - Capítulo IV</title>
+  <!-- Google Fonts: Poppins -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <!-- FontAwesome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Estilos personalizados -->
+  <style>
+    /* Estilos generales */
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #f8f9fa;
+    }
+
+    /* Header */
+    .page-header {
+      background-color: #d64041;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      transition: background-color 0.3s ease;
+    }
+
+    .navbar-brand {
+      font-size: 1.5rem;
+      font-weight: 600;
+      color: #fff !important;
+    }
+
+    .nav-link {
+      font-size: 1.1rem;
+      font-weight: 500;
+      color: #fff !important;
+      transition: all 0.3s ease;
+    }
+
+    .nav-link:hover {
+      color: #ffd700 !important;
+    }
+
+    /* Hero Section */
+    .hero {
+      background: url('https://miro.medium.com/v2/resize:fit:1200/1*XFlfR-kRUrZ4BnwI5NN0QQ.jpeg') no-repeat center/cover;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      position: relative;
+    }
+
+    .hero::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: rgba(0, 0, 0, 0.5);
+    }
+
+    .hero h1 {
+      font-size: 3.5rem;
+      font-weight: 700;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+
+    .hero h3 {
+      font-size: 2rem;
+      font-weight: 600;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+
+    .hero p {
+      font-size: 1.25rem;
+      font-weight: 500;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+
+    /* Carrusel */
+    .carousel {
+      margin-top: 2rem;
+      border-radius: 15px;
+      overflow: hidden;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    }
+
+    .carousel-item img {
+      filter: brightness(0.7);
+    }
+
+    .carousel-caption {
+      background: rgba(0, 0, 0, 0.7);
+      border-radius: 10px;
+      padding: 2rem;
+    }
+
+    .carousel-caption h5 {
+      font-size: 2rem;
+      font-weight: 600;
+    }
+
+    .carousel-caption p {
+      font-size: 1.1rem;
+      font-weight: 400;
+    }
+
+    /* Secciones de contenido */
+    .section-text {
+      margin-top: 2rem;
+    }
+
+    .section-text h2 {
+      font-size: 2.5rem;
+      font-weight: 600;
+      margin-bottom: 1.5rem;
+    }
+
+    .section-text p {
+      font-size: 1.1rem;
+      line-height: 1.8;
+    }
+
+    /* Footer */
+    .page-footer {
+      background-color: #343a40;
+      color: #fff;
+      padding: 2rem 0;
+    }
+
+    .footer-links a {
+      color: #fff;
+      text-decoration: none;
+      margin-right: 1rem;
+    }
+
+    .footer-links a:hover {
+      color: #ffd700;
+    }
+
+    /* Responsividad */
+    @media (max-width: 767px) {
+      .hero h1 {
+        font-size: 2.5rem;
+      }
+
+      .hero h3 {
+        font-size: 1.5rem;
+      }
+
+      .hero p {
+        font-size: 1rem;
+      }
+
+      .carousel-caption h5 {
+        font-size: 1.5rem;
+      }
+
+      .carousel-caption p {
+        font-size: 0.9rem;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Header -->
+  <header class="fixed-top page-header">
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#home">
+          <i class="fas fa-cross me-2"></i>Evangelium Vitae
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#carouselExampleCaptions">Aspectos importantes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#story">Venta y Tráfico de órganos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Pena">Pena de muerte</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-8 col-lg-6">
+          <h1 class="text-white">Evangelium Vitae</h1>
+          <h3 class="text-white">CAPÍTULO IV</h3>
+          <p class="text-white">A MÍ ME LO HICISTEIS<br>Por una nueva cultura de la vida humana</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Carrusel -->
+  <section id="carouselExampleCaptions" class="container my-5">
+    <div class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/img2.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption">
+            <h5>Puntos más importantes del capítulo IV</h5>
+          </div>
+        </div>
+        <!-- Agrega más elementos del carrusel aquí -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Enlace a Bootstrap 5 -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Sección Venta y Tráfico de Órganos -->
+<section id="story" class="container my-5">
+  <div class="row justify-content-center">
+    
+    <!-- Tarjeta 1: Introducción -->
+    <div class="col-lg-6 col-md-12 mb-4">
+      <div class="card text-white bg-dark shadow-lg border-0 rounded-4">
+        <div class="card-body">
+          <h2 class="card-title text-warning">Venta y Tráfico de Órganos</h2>
+          <p class="card-text">
+            El tráfico y la venta de órganos es una actividad ilegal y una grave violación de los derechos humanos. 
+            Implica la obtención, transporte y comercialización de órganos humanos de manera ilícita, con el objetivo 
+            de trasplantarlos en pacientes que los necesitan. Este crimen está vinculado a la explotación de personas 
+            vulnerables y al crimen organizado a nivel mundial.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Tarjeta 2: ¿Qué es el tráfico de órganos? -->
+    <div class="col-lg-6 col-md-12 mb-4">
+      <div class="card text-white bg-primary shadow-lg border-0 rounded-4">
+        <div class="card-body">
+          <h2 class="card-title">¿Qué es el tráfico de órganos?</h2>
+          <p class="card-text">
+            Es el comercio ilegal de órganos humanos, como <b>riñones, hígados, corazones, pulmones y córneas</b>, entre otros. 
+            Se lleva a cabo mediante redes criminales que pueden operar en hospitales clandestinos o con la complicidad de 
+            profesionales de la salud.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Tarjeta 3: Formas de explotación -->
+    <div class="col-lg-6 col-md-12 mb-4">
+      <div class="card text-white bg-danger shadow-lg border-0 rounded-4">
+        <div class="card-body">
+          <h2 class="card-title">Formas de explotación</h2>
+          <ul>
+            <li><b>Extracción forzada de órganos:</b> Personas secuestradas o engañadas son sometidas a cirugías sin su consentimiento.</li>
+            <li><b>Venta de órganos por necesidad económica:</b> Individuos en pobreza extrema venden sus órganos a cambio de dinero.</li>
+            <li><b>Turismo de trasplantes:</b> Pacientes viajan a otros países para recibir órganos comprados en el mercado negro.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Tarjeta 4: Video -->
+    <div class="col-lg-6 col-md-12">
+      <div class="card shadow-lg border-0 rounded-4">
+        <div class="card-body text-center">
+          <h2 class="card-title text-dark">Video Relacionado</h2>
+          <iframe width="100%" height="315" src="https://www.youtube.com/embed/oXHGDKx0MbQ" frameborder="0" allowfullscreen class="rounded-3"></iframe>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+<!-- Sección Pena de Muerte -->
+<section id="Pena" class="container my-5">
+  <div class="row justify-content-center">
+      <div class="col-md-10">
+          <h2 class="text-center display-4 font-weight-bold mb-5">La Pena de Muerte</h2>
+          <div class="row">
+              <div class="col-md-6 mb-4">
+                  <div class="card shadow-lg border-0 h-100">
+                      <img src="https://tse3.mm.bing.net/th?id=OIP.nCxKE6foflIbzUvBCX9fwQHaHa&pid=Api&P=0&h=220" class="card-img-top" alt="Justicia">
+                      <div class="card-body p-4">
+                          <h4 class="card-title text-center font-weight-bold">Historia y Controversia</h4>
+                          <p class="card-text text-justify">La pena de muerte ha sido utilizada históricamente como castigo para diversos delitos, incluidos crímenes violentos y transgresiones políticas. Sin embargo, su aplicación ha generado intensos debates debido a su carácter irreversible y a preocupaciones sobre su equidad y efectividad. Su abolición ha sido promovida por múltiples organismos internacionales.</p>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-md-6 mb-4">
+                  <div class="card shadow-lg border-0 h-100">
+                      <img src="https://tse4.mm.bing.net/th?id=OIP.CW1wdk-BM88_RpPaGx33ZwHaE8&pid=Api&P=0&h=220" class="card-img-top" alt="Inocentes en prisión">
+                      <div class="card-body p-4">
+                          <h4 class="card-title text-center font-weight-bold">Riesgo de Injusticias</h4>
+                          <p class="card-text text-justify">Uno de los principales argumentos en contra de la pena capital es el riesgo de ejecutar a personas inocentes. Estudios han demostrado que errores judiciales han llevado a la condena de personas que, con nuevas pruebas, fueron exoneradas. Esto expone fallos en el sistema judicial y la posibilidad de discriminación por raza o clase social.</p>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-md-6 mb-4">
+                  <div class="card shadow-lg border-0 h-100">
+                      <img src="https://tse4.mm.bing.net/th?id=OIP.f13owlbCB6fpIB-xjf-SVwHaEq&pid=Api&P=0&h=220" class="card-img-top" alt="Costos judiciales">
+                      <div class="card-body p-4">
+                          <h4 class="card-title text-center font-weight-bold">Costos y Eficiencia</h4>
+                          <p class="card-text text-justify">Contrario a lo que se piensa, la pena de muerte suele ser más costosa que la cadena perpetua debido a los largos procesos judiciales, apelaciones y medidas de seguridad necesarias para evitar errores fatales. Además, no se ha demostrado de manera concluyente que tenga un impacto significativo en la reducción de la criminalidad.</p>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-md-6 mb-4">
+                  <div class="card shadow-lg border-0 h-100">
+                      <img src="https://tse2.mm.bing.net/th?id=OIP.WvR-mmlZR-witV2cS3BpTQHaDE&pid=Api&P=0&h=220" class="card-img-top" alt="Derechos Humanos">
+                      <div class="card-body p-4">
+                          <h4 class="card-title text-center font-weight-bold">Derechos Humanos</h4>
+                          <p class="card-text text-justify">Muchas organizaciones internacionales, como la ONU y Amnistía Internacional, abogan por la abolición de la pena de muerte, considerándola incompatible con los derechos humanos y la justicia equitativa. Cada vez más países han optado por erradicarla en favor de alternativas más humanas y justas.</p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="text-center mt-4">
+              <a href="#mas-informacion" class="btn btn-primary btn-lg">Más Información</a>
+          </div>
+      </div>
+  </div>
+</section>
+
+<style>
+  /* Importación de la fuente Poppins */
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+  /* Estilos generales */
+  body {
+      font-family: 'Poppins', sans-serif;
+  }
+
+  #Pena {
+      padding: 60px 0;
+  }
+
+  #Pena h2 {
+      color: #343a40;
+      font-weight: 700;
+  }
+
+  #Pena .card {
+      border-radius: 15px;
+      background-color: #ffffff;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      overflow: hidden;
+  }
+
+  #Pena .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+  }
+
+  #Pena .card-title {
+      color: #2575fc;
+      font-weight: 600;
+  }
+
+  #Pena .card-text {
+      color: #555;
+      font-size: 1rem;
+      line-height: 1.6;
+  }
+
+  #Pena .btn-primary {
+      background-color: #2575fc;
+      border: none;
+      padding: 12px 30px;
+      font-size: 1.1rem;
+      transition: background-color 0.3s ease;
+  }
+
+  #Pena .btn-primary:hover {
+      background-color: #1a5bbf;
+  }
+
+  #Pena .card img {
+      height: 250px;
+      object-fit: cover;
+  }
+</style>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Pena de Muerte: Una Práctica Inmoral</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>La Pena de Muerte: Una Práctica Inmoral</h1>
+        <p>Explorando las razones éticas, sociales y jurídicas para su abolición</p>
+    </header>
+    
+    <main>
+<!-- Sección Principal -->
+<section class="intro">
+  <h2>¿Por qué la pena de muerte?</h2>
+  <p>La pena de muerte es un tema que genera debates apasionados en la sociedad actual. En este artículo, exploramos las razones éticas, sociales y jurídicas que respaldan su abolición.</p>
+</section>
+
+<!-- Tarjetas de contenido -->
+<div class="cards-container">
+  <div class="card card-1">
+      <h3>Derecho a la Vida</h3>
+      <p>La pena de muerte viola el derecho fundamental a la vida, un derecho inherente a todos los seres humanos. La vida debe ser respetada y protegida, y la pena capital es una negación de este principio.</p>
+  </div>
+
+  <div class="card card-2">
+      <h3>Irreversibilidad</h3>
+      <p>El acto de ejecutar a alguien es irreversible. Si se comete un error judicial o surgen nuevas pruebas que demuestran la inocencia, no hay forma de corregirlo.</p>
+  </div>
+
+  <div class="card card-3">
+      <h3>Dignidad Humana</h3>
+      <p>La pena de muerte atenta contra la dignidad intrínseca de las personas, incluso de aquellas que han cometido crímenes graves. Todos los individuos merecen ser tratados con dignidad y respeto.</p>
+  </div>
+</div>
+
+<div class="cards-container">
+  <div class="card card-4">
+      <h3>Efectividad y Prevención del Crimen</h3>
+      <p>Existen dudas sobre la efectividad de la Pena de Muerte como disuasivo del crimen. Algunos estudios sugieren que la amenaza de la pena capital no necesariamente reduce la tasa de delitos graves, lo que plantea interrogantes sobre la utilidad y eficacia de esta práctica.</p>
+  </div>
+
+  <div class="card card-5">
+      <h3>Contexto Social y Cultural</h3>
+      <p>La Pena de Muerte está influenciada por factores sociales, culturales y políticos que pueden sesgar su aplicación y generar injusticias. La discriminación racial, económica o de género en la imposición de la pena capital es un problema ético grave que cuestiona la equidad y la imparcialidad del sistema legal.</p>
+  </div>
+
+  <div class="card card-6">
+      <h3>Violación de Derechos Humanos</h3>
+      <p>La Pena de Muerte se considera una violación de los derechos humanos fundamentales, en particular el derecho a la vida y a la dignidad inherente de cada individuo.</p>
+  </div>
+</div>
+
+<!-- Estilos CSS -->
+<style>
+  /* Estilo general */
+  body {
+      font-family: 'Poppins', sans-serif;
+      line-height: 1.6;
+      background-color: #f4f4f9;
+      color: #333;
+      margin: 0;
+      padding: 0;
+  }
+
+  .intro {
+      text-align: center;
+      background-color: #005b96;
+      color: #fff;
+      padding: 40px 20px;
+      margin-bottom: 30px;
+      border-radius: 8px;
+      opacity: 0;
+      transform: translateY(-50px);
+      animation: fadeIn 1s ease-out forwards;
+  }
+
+  .intro h2 {
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+  }
+
+  .intro p {
+      font-size: 1.1rem;
+      max-width: 800px;
+      margin: 0 auto;
+  }
+
+  .cards-container {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+  }
+
+  .card {
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      text-align: center;
+      color: #333;
+      opacity: 0;
+      transform: translateY(50px);
+      animation: fadeInUp 1s ease-out forwards;
+  }
+
+  .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
+  }
+
+  .card h3 {
+      font-size: 1.5rem;
+      color: #fff;
+      margin-bottom: 20px;
+      padding: 15px;
+      border-radius: 6px;
+  }
+
+  .card-1 h3 { background-color: #f5a623; }
+  .card-2 h3 { background-color: #005b96; }
+  .card-3 h3 { background-color: #ff4c4c; }
+  .card-4 h3 { background-color: #6c757d; }
+  .card-5 h3 { background-color: #28a745; }
+  .card-6 h3 { background-color: #ffc107; }
+
+  .card p {
+      font-size: 1rem;
+      color: #555;
+      line-height: 1.6;
+  }
+
+  /* Animaciones */
+  @keyframes fadeIn {
+      0% { opacity: 0; transform: translateY(-50px); }
+      100% { opacity: 1; transform: translateY(0); }
+  }
+
+  @keyframes fadeInUp {
+      0% { opacity: 0; transform: translateY(50px); }
+      100% { opacity: 1; transform: translateY(0); }
+  }
+
+  /* Responsive para pantallas pequeñas */
+  @media (max-width: 768px) {
+      .cards-container {
+          grid-template-columns: 1fr;
+      }
+
+      .card {
+          padding: 15px;
+      }
+  }
+</style>
+
+<!-- JS para animaciones dinámicas -->
+<script>
+  // Animación de las tarjetas al hacer scroll
+  document.addEventListener('DOMContentLoaded', function () {
+      const cards = document.querySelectorAll('.card');
+      const intro = document.querySelector('.intro');
+
+      // Función para activar la animación cuando se haga scroll hacia las tarjetas
+      const animateCards = () => {
+          const scrollPosition = window.scrollY + window.innerHeight;
+          cards.forEach(card => {
+              if (card.offsetTop < scrollPosition) {
+                  card.classList.add('active');
+              }
+          });
+          if (intro.offsetTop < scrollPosition) {
+              intro.classList.add('active');
+          }
+      };
+
+      // Escuchar el evento de desplazamiento
+      window.addEventListener('scroll', animateCards);
+      animateCards(); // Inicializar la animación al cargar la página
+  });
+</script>
+
+
+
+       <!-- Información adicional -->
+<section class="extra-info">
+  <h3>Información Adicional</h3>
+  <p>Es importante reconocer que la pena de muerte varía significativamente entre diferentes países y culturas. Muchos países que aún la mantienen están siendo presionados para abolirla, siguiendo los estándares internacionales de derechos humanos.</p>
+  <p>La pena de muerte sigue siendo una práctica controversial en varios países, con muchos sosteniendo que es una forma de justicia, mientras que otros la consideran inhumana y una violación fundamental de los derechos humanos. Según informes de organizaciones como Amnistía Internacional, más de dos tercios de los países en el mundo han abolido la pena capital, ya sea por ley o en la práctica.</p>
+
+  <p>Países como China, Irán, Arabia Saudita y Estados Unidos son conocidos por ser algunos de los mayores ejecutores de la pena de muerte, aunque con variaciones en su aplicación y en la transparencia de los datos. Las ejecuciones se realizan bajo circunstancias opacas en muchas partes del mundo, lo que plantea interrogantes sobre la imparcialidad y justicia de este castigo.</p>
+
+  <img src="https://tse3.mm.bing.net/th?id=OIP.lQ58kzjwMqaVGOx_UKnZEgHaEJ&pid=Api&P=0&h=220" alt="Pena de Muerte" class="responsive-image">
+  
+  <blockquote>
+      <p>"La pena de muerte es el síntoma de una cultura de violencia, no de una solución a ella."</p>
+      <footer>— Amnistía Internacional</footer>
+  </blockquote>
+
+  <!-- Video sobre la pena de muerte -->
+  <div class="video-container">
+      <h4>Video sobre la pena de muerte</h4>
+      <iframe width="100%" height="315" src="https://www.youtube.com/embed/D5H55k7fFaQ?si=CmsqYCsgWPx5UaxA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+</section>
+
+<!-- Estadísticas -->
+<section class="stats">
+  <h3>Estadísticas Relevantes</h3>
+  <div class="stats-container">
+      <div class="stat">
+          <h4>Países que aún aplican la pena de muerte</h4>
+          <p data-target="58">58</p>
+      </div>
+      <div class="stat">
+          <h4>Ejecuciones en 2022</h4>
+          <p data-target="883">883</p>
+      </div>
+      <div class="stat">
+          <h4>Países abolicionistas</h4>
+          <p data-target="144">144</p>
+      </div>
+  </div>
+</section>
+
+      <style>
+        .stats {
+          background-color: #2c3e50;
+          padding: 40px 20px;
+          border-radius: 10px;
+          box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+          margin: 40px 0;
+          text-align: center;
+      }
+      
+      .stats h3 {
+          color: #fff;
+          font-size: 2rem;
+          margin-bottom: 30px;
+          font-weight: 600;
+      }
+      
+      .stats-container {
+          display: flex;
+          flex-wrap: wrap;
+          gap: 20px;
+          justify-content: center;
+      }
+      
+      .stat {
+          background-color: #34495e;
+          border-radius: 10px;
+          padding: 20px;
+          flex: 1;
+          min-width: 200px;
+          max-width: 300px;
+          box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+          transition: transform 0.3s ease, box-shadow 0.3s ease;
+      }
+      
+      .stat:hover {
+          transform: translateY(-10px);
+          box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+      }
+      
+      .stat h4 {
+          font-size: 1.2rem;
+          margin-bottom: 10px;
+          color: #ecf0f1;
+      }
+      
+      .stat p {
+          font-size: 2.5rem;
+          font-weight: 700;
+          color: #e74c3c;
+          margin: 0;
+          transition: color 0.3s ease;
+      }
+      
+      .stat:hover p {
+          color: #f1c40f;
+      }
+
+      </style>
+
+      <script>
+        document.addEventListener('DOMContentLoaded', () => {
+          const stats = document.querySelectorAll('.stat p');
+      
+          const options = {
+              root: null,
+              rootMargin: '0px',
+              threshold: 0.5, // Cuando el 50% del elemento es visible
+          };
+      
+          const observer = new IntersectionObserver((entries, observer) => {
+              entries.forEach(entry => {
+                  if (entry.isIntersecting) {
+                      startCounting(entry.target);
+                      observer.unobserve(entry.target); // Deja de observar después de iniciar
+                  }
+              });
+          }, options);
+      
+          stats.forEach(stat => {
+              observer.observe(stat); // Observa cada estadística
+          });
+      
+          function startCounting(element) {
+              const target = +element.getAttribute('data-target'); // Obtiene el número final
+              const duration = 2000; // Duración de la animación en milisegundos
+              const start = 0;
+              const increment = target / (duration / 16); // Aproximadamente 60 fps
+      
+              let current = start;
+              const timer = setInterval(() => {
+                  current += increment;
+                  if (current >= target) {
+                      clearInterval(timer);
+                      current = target; // Asegura que el número final sea exacto
+                  }
+                  element.textContent = Math.floor(current); // Actualiza el número
+              }, 16); // 16ms para ~60 fps
+          }
+      });
+      </script>
+    </main>
+
+    
+    <!-- JavaScript para efectos interactivos -->
+    <script>
+        // Efecto de hover en las tarjetas
+        const cards = document.querySelectorAll('.card');
+        cards.forEach(card => {
+            card.addEventListener('mouseenter', () => {
+                card.style.transform = 'translateY(-10px)';
+                card.style.boxShadow = '0 10px 20px rgba(0, 0, 0, 0.2)';
+            });
+            card.addEventListener('mouseleave', () => {
+                card.style.transform = 'translateY(0)';
+                card.style.boxShadow = '0 5px 15px rgba(0, 0, 0, 0.1)';
+            });
+        });
+
+        // Efecto de fade-in al cargar la página
+        document.addEventListener('DOMContentLoaded', () => {
+            document.body.style.opacity = '0';
+            setTimeout(() => {
+                document.body.style.transition = 'opacity 1s ease';
+                document.body.style.opacity = '1';
+            }, 100);
+        });
+    </script>
+</body>
+</html>
+
+
+<style>
+  body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    opacity: 1;
+    transition: opacity 1s ease;
+}
+
+header {
+    background-color: #2c3e50;
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.8rem;
+    font-weight: 600;
+}
+
+header p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+main {
+    padding: 30px;
+    max-width: 1200px;
+    margin: 20px auto;
+    background-color: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+h2, h3 {
+    color: #2c3e50;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+p {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+ul li {
+    margin-bottom: 10px;
+    color: #555;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #2c3e50;
+    color: #fff;
+    margin-top: 40px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1rem;
+}
+
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-bottom: 40px;
+}
+
+.card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 25px;
+    flex: 1;
+    min-width: 280px;
+    min-height: 300px; /* Altura mínima para igualar el tamaño */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card h3 {
+    font-size: 1.6rem;
+    margin-bottom: 15px;
+    color: #2c3e50;
+}
+
+.card p, .card ul {
+    font-size: 1.1rem;
+    color: #555;
+}
+
+.extra-info {
+    background-color: #ecf0f1;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.extra-info img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+blockquote {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #fff;
+    border-left: 5px solid #2c3e50;
+    color: #555;
+    font-style: italic;
+}
+
+blockquote footer {
+    margin-top: 10px;
+    font-size: 0.9rem;
+    color: #777;
+}
+
+.stats {
+    background-color: #ecf0f1;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.stats-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.stat {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    flex: 1;
+    min-width: 200px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.stat h4 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: #2c3e50;
+}
+
+.stat p {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #2c3e50;
+}
+</style>
+
+<!-- Footer -->
+<footer class="page-footer">
+  <div class="container">
+    <div class="row">
+      <!-- Columna izquierda -->
+      <div class="col-12 col-md-6">
+        <p>&copy; 2024 William Antonio Gamez Morales. Todos los derechos reservados.</p>
+      </div>
+
+      <!-- Columna derecha -->
+      <div class="col-12 col-md-6 footer-links">
+        <a href="#">Política de privacidad</a>
+        <a href="#">Preguntas frecuentes</a>
+        <p>Hecho con <i class="fas fa-heart text-red"></i> por William Antonio Gamez Morales</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Estilos CSS -->
+<style>
+  /* Footer */
+  .page-footer {
+    background-color: #1a1a1a;
+    color: #fff;
+    padding: 40px 0;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+  }
+
+  .page-footer p {
+    margin: 0;
+    font-size: 1rem;
+  }
+
+  .footer-links {
+    margin-top: 20px;
+  }
+
+  .footer-links a {
+    text-decoration: none;
+    color: #fff;
+    margin-right: 20px;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+  }
+
+  .footer-links a:hover {
+    color: #f5a623;
+  }
+
+  .footer-links i {
+    color: #e74c3c;
+    transition: color 0.3s ease;
+  }
+
+  .footer-links i:hover {
+    color: #f5a623;
+  }
+
+  /* Responsive: Ajuste para pantallas pequeñas */
+  @media (max-width: 768px) {
+    .footer-links {
+      text-align: center;
+      margin-top: 10px;
+    }
+  }
+</style>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
